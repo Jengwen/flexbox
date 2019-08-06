@@ -1,0 +1,24 @@
+/* Use flexbox to create layout */
+
+
+/* center header */
+
+.pageHeader {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* align list of names to multiple columns */
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    margin: auto;
+    width: 600px;
+}
+
+.shop {
+    margin: 50px;
+}
